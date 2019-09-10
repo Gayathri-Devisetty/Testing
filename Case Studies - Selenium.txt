@@ -1,0 +1,143 @@
+Case Study 1:
+1. Goto  ebay.in
+2. Click on register link
+3. Fill the required fields(Use different locators for different elements)
+4. Click on register
+
+Case Study 1.1: // Example for GetText() and Compare the field data
+
+1. Goto Ebay.in
+2. click on Register link
+3. wait for the page to navigate
+4. Enter data in email id field
+5. enter data in re enter email id field
+6. compare the data in email id & re enter email id field are same.
+
+Case Study 2: // Example for Radio Button & Check Boxes.
+1. Goto http://destinationqa.com/aut/RadioButtons.html
+2. Select Monday Radio Button
+3. Check Yellow & Orange check box
+
+Case Study 3: // Example for Navigate()
+
+1. Goto Rediff.com
+2. Get & print the title of the home page
+3. Click on Sign in
+4. get& Print the title of the Login page
+5. Go Back to the previous page using navige method 
+6. get the title & check if it same as home page
+7. Use forward method & get the page title & check if it same as Login page
+8. Close all the browser entities.
+
+Case Study 4: // Example for getAttribute()
+
+1. Goto ebay.in
+2. Get all the attribute values of the register link as per the HTML design.
+
+Case Study 5: // getTitle() and Explicit wait based on the Title
+
+1. Goto Google
+2. Search for Automation Testing
+3. Click on Search button
+4. Explicitwait based on titlecontains
+5. Get the title should be same as search term
+
+Case Study 6:// Example for FindElements
+
+1. Goto Amazon.in
+2. Search for the "Da Vinci Books"
+3. Click search button
+4. Wait till the collection of books are loaded till the last item(Explicit wait to check the last item of  page is loaded)
+5. Get the Title & price of all the books & print in the console
+
+Case Study 7: // Working with Select /List object
+Goto Newtours --> http://newtours.demoaut.com/
+Enter Login Credential of Username & Password as "mercury"
+Click on Signin Button
+Select the passengers count as "4" using select object by index
+Select Departure location, Month & Date using select by Value
+Select Arrival location, Month,& Date  using select by Visible Text
+Click on Continue booking the flight ticket.
+
+Case Study 8:
+
+Goto Newtours application
+Login with Credentials
+Verify the default values selected in the Departing from is not same as Arriving In select box
+
+Case Study 9:
+
+Goto New tours application
+Verify the Height & Width of Username & Password text box is same.
+
+case study 10:
+Goto Google search engine
+Search for any term/word
+Capture the data in autosuggest window and print it.
+
+Case Study 11:
+
+Working With Multiple Window of a Browser
+1. Goto Gmail Create account URL
+2.  Click on Term of Service
+3.  Click on Privacy Policy
+4. After all the windows are opened fetch the title & all the links avialable in each of the window
+
+
+Case Study
+Explicit wati using
+titleContains
+titleIs
+ExpectedConditions.presenceOfElementLocated(locator)
+
+
+Case Study : 13
+
+1. Goto http://www.fedex.com/sg/
+2. Verify whther the User ID & Password text box is available or not?
+3. Get & Print the already available default text avaialable User ID & Password Text box & Set new value.
+4. Get & Print the default text available on the list object & Select any one item in the list box
+5. Verify the Remember me check box, should be selected by default.
+6. Click on the Login button using Submit().
+
+
+
+Case Study : 14
+
+1. Goto http://www.destinationqa.com/aut/sample.html
+2. Get total no. of Text boxes avaialable.
+3. Get & Print the default text on the address text box
+
+Case Study 15
+
+1. Goto the Specific URL --> popup.html
+2. Click on Tryit Button
+3. get the text on the pop up window
+4.Accept the pop up window
+5. Click again on the tryit button
+6. Dismiss the pop up window
+
+Case Study 16:
+
+1.	Launch the URL --> popup2.html
+2.	Click on “Click on me” Button.
+3.	Get Text on the pop up window
+4.	Accept / Dismiss pop up
+5.	Get the confirmation message based on accept / dismiss 
+6.	Verify whether it is an accept / dismiss alert, based on the confirmation message & print in console. 
+
+Case Study 17:
+
+1.	Launch the URL --> Popup3.html
+2.	Click on “Click on me” Button.
+3.	Enter the text in the Text box
+4.	Click OK Button.
+5.	Get the confirmation message & print in console.
+
+Case Study 18:
+
+Goto Newtours --> http://newtours.demoaut.com/
+Enter Login Credential of Username & Password as "mercury"
+Click on Signin Button
+Check if  'India' is present or not in the Departing from list box.
+
